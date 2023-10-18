@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Portfolio Website</title>
+
+    <!-- Box Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- https://github.com/mattboldt/typed.js -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+</head>
+
+<body>
+    <!-- Header Design -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Home Section Design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I am</h3>
+            <h1>So Visalsing</h1>
+            <h3>I'm a <span class="text"></span></h3>
+            <p>
+                My expertise is to create
+                and develop website, frontend, responsive design and more. &nbsp; &nbsp;
+                <br>
+                Here is my CV below! You can click on the button to download my CV.
+            </p>
+            <div class="social-media">
+                <a href="https://www.facebook.com/profile.php?id=100024759097669" target="_blank" alt="Facebook"><i
+                        class='bx bxl-facebook'></i></a>
+                <a href="https://instagram.com/visalsing_88?igshid=NzZlODBkYWE4Ng%3D%3D&utm_source=qr" target="_blank"
+                    alt="Instagram"><i class='bx bxl-instagram'></i></a>
+                <a href="https://twitter.com/visalsing_88" target="Twitter" alt="Twitter"><i
+                        class='bx bxl-twitter'></i></a>
+                <a href="" target="_blank" alt="YouTube"><i class="bx bxl-youtube"></i></i></a>
+                <a href="#"><i class='bx bxl-github'></i></a>
+                <a href="#"><i class='bx bxl-telegram'></i></a>
+            </div>
+            <a href="pdf/sovisalsing.pdf" download target="_blank" class="btn">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="images/myimg-rmv-bg.png" alt="">
+        </div>
+    </section>
+
+    <!-- About Section Design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/myimg-rmv-bg.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3 id="below-heading">Front-end developer</h3>
+            <p>
+                Hello! I'm So Visalsing, a passionate front-end developer with expertise in designing and developing
+                websites. I'm driven by my love for creating visually stunning and user-friendly interfaces that leave a
+                lasting impression.
+                <br>
+                With a strong foundation in HTML, CSS, and JavaScript, I bring ideas to life by seamlessly blending
+                aesthetics and functionality. I have hands-on experience with modern front-end frameworks like Bootstrap
+                and Wordpress, enabling me to build interactive and static webs.
+                <br>
+
+            </p>
+            <a href="about.html" class="btn">More About Me</a>
+        </div>
+    </section>
+
+    <!-- SKILLS Section Design -->
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+        <div class="skills-container">
+            <div class="skills-box">
+
+                <h3>Technical Skills</h3>
+                <div class="boxskills">
+                    <!-- <li>
+                            <h3 id="element-percent">HTML 90%</h3>
+                            <span class="bar-percent"><span class="html"></span></span>
+                        </li>
+                
+                        <li>
+                            <h3 id="element-percent">CSS</h3>
+                            <span class="bar-percent"><span class="css"></span></span>
+                        </li>
+                
+                        <li>
+                            <h3 id="element-percent">JavaScript</h3>
+                            <span class="bar-percent"><span class="javascript"></span></span>
+                        </li>
+                
+                        <li>
+                            <h3 id="element-percent">Python</h3>
+                            <span class="bar-percent"><span class="python"></span></span>
+                        </li> -->
+                    <div class="container-barper">
+                        <div class="skills-box-barper">
+                            <span class="title-barper">HTML</span>
+
+                            <div class="skills-bar-barper">
+                                <span class="skills-per-barper html">
+                                    <span class="tooltip">90%</span>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="skills-box-barper">
+                            <span class="title-barper">CSS</span>
+
+                            <div class="skills-bar-barper">
+                                <span class="skills-per-barper css">
+                                    <span class="tooltip">80%</span>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="skills-box-barper">
+                            <span class="title-barper">JavaScript</span>
+
+                            <div class="skills-bar-barper">
+                                <span class="skills-per-barper javascript">
+                                    <span class="tooltip">70%</span>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="skills-box-barper">
+                            <span class="title-barper">Python</span>
+
+                            <div class="skills-bar-barper">
+                                <span class="skills-per-barper python">
+                                    <span class="tooltip">70%</span>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="skills-box-barper">
+                            <span class="title-barper">C</span>
+
+                            <div class="skills-bar-barper">
+                                <span class="skills-per-barper c">
+                                    <span class="tooltip">75%</span>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="skills-box-barper">
+                            <span class="title-barper">C++</span>
+
+                            <div class="skills-bar-barper">
+                                <span class="skills-per-barper cpp">
+                                    <span class="tooltip">75%</span>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="skills-box-barper">
+                            <span class="title-barper">C#</span>
+
+                            <div class="skills-bar-barper">
+                                <span class="skills-per-barper csharp">
+                                    <span class="tooltip">60%</span>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="skills-box-barper">
+                            <span class="title-barper">Java</span>
+
+                            <div class="skills-bar-barper">
+                                <span class="skills-per-barper java">
+                                    <span class="tooltip">65%</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- <p>
+                        Hello! I'm So Visalsing, a passionate front-end developer with expertise in designing and developing websites. I'm driven by my love for creating visually stunning and user-friendly interfaces that leave a lasting impression.
+                        <br>
+                        With a strong foundation in HTML, CSS, and JavaScript, I bring ideas to life by seamlessly blending aesthetics and functionality. I have hands-on experience with modern front-end frameworks like Bootstrap and Wordpress, enabling me to build interactive and static webs.
+                        
+                    </p> -->
+                <!-- <a href="#" class="btn">Expand</a> -->
+            </div>
+
+            <div class="skills-box">
+
+                <h3>Professional Skills</h3>
+                <div class="boxskills">
+                    <!-- <li>
+                            <h3 id="element-percent">HTML 90%</h3>
+                            <span class="bar-percent"><span class="html"></span></span>
+                        </li>
+                
+                        <li>
+                            <h3 id="element-percent">CSS</h3>
+                            <span class="bar-percent"><span class="css"></span></span>
+                        </li>
+                
+                        <li>
+                            <h3 id="element-percent">JavaScript</h3>
+                            <span class="bar-percent"><span class="javascript"></span></span>
+                        </li>
+                
+                        <li>
+                            <h3 id="element-percent">Python</h3>
+                            <span class="bar-percent"><span class="python"></span></span>
+                        </li> -->
+                    <div class="container-barper">
+                        <div class="skills-box-barper">
+                            <span class="title-barper">Creativity</span>
+
+                            <div class="skills-bar-barper">
+                                <span class="skills-per-barper creativity">
+                                    <span class="tooltip">73%</span>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="skills-box-barper">
+                            <span class="title-barper">Communication</span>
+
+                            <div class="skills-bar-barper">
+                                <span class="skills-per-barper communication">
+                                    <span class="tooltip">68%</span>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="skills-box-barper">
+                            <span class="title-barper">Problem Solving</span>
+
+                            <div class="skills-bar-barper">
+                                <span class="skills-per-barper problem-solving">
+                                    <span class="tooltip">71%</span>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="skills-box-barper">
+                            <span class="title-barper">Team Work</span>
+
+                            <div class="skills-bar-barper">
+                                <span class="skills-per-barper teamwork">
+                                    <span class="tooltip">80%</span>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="skills-box-barper">
+                            <span class="title-barper">Emotional Intelligence</span>
+
+                            <div class="skills-bar-barper">
+                                <span class="skills-per-barper emotional-intelligence">
+                                    <span class="tooltip">71%</span>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="skills-box-barper">
+                            <span class="title-barper">Time Management</span>
+
+                            <div class="skills-bar-barper">
+                                <span class="skills-per-barper time-management">
+                                    <span class="tooltip">67%</span>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="skills-box-barper">
+                            <span class="title-barper">Resilience</span>
+
+                            <div class="skills-bar-barper">
+                                <span class="skills-per-barper resilience">
+                                    <span class="tooltip">77%</span>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="skills-box-barper">
+                            <span class="title-barper">Continuous Learning</span>
+
+                            <div class="skills-bar-barper">
+                                <span class="skills-per-barper continuous-learning">
+                                    <span class="tooltip">77%</span>
+                                </span>
+                            </div>
+                        </div>
+
+                        <!-- <div class="skills-box-barper">
+                            <span class="title-barper">C#</span>
+
+                            <div class="skills-bar-barper">
+                                <span class="skills-per-barper csharp">
+                                    <span class="tooltip">60%</span>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="skills-box-barper">
+                            <span class="title-barper">Java</span>
+
+                            <div class="skills-bar-barper">
+                                <span class="skills-per-barper java">
+                                    <span class="tooltip">65%</span>
+                                </span>
+                            </div>
+                        </div> -->
+                    </div>
+
+                </div>
+                <!-- <p>
+                        Hello! I'm So Visalsing, a passionate front-end developer with expertise in designing and developing websites. I'm driven by my love for creating visually stunning and user-friendly interfaces that leave a lasting impression.
+                        <br>
+                        With a strong foundation in HTML, CSS, and JavaScript, I bring ideas to life by seamlessly blending aesthetics and functionality. I have hands-on experience with modern front-end frameworks like Bootstrap and Wordpress, enabling me to build interactive and static webs.
+                        
+                    </p> -->
+                <!-- <a href="#" class="btn">Expand</a> -->
+            </div>
+
+            <!-- <div class="skills-box">
+
+                <h3>Professional Skills</h3>
+                <div class="profess-container">
+                    <div class="radial-bars">
+                    
+                        <div class="radial-bar">
+                            <svg x="0px" y="0px" viewBox="0 0 200 200">
+                                <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                                <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                            </svg>
+                            <div class="percentage">73%</div>
+                            <div class="text">Creativity</div>
+                        </div>
+        
+                        <div class="radial-bar">
+                            <svg x="0px" y="0px" viewBox="0 0 200 200">
+                                <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                                <circle class="path path-2" cx="100" cy="100" r="80"></circle>
+                            </svg>
+                            <div class="percentage">68%</div>
+                            <div class="text">Communication</div>
+                        </div>
+        
+                        <div class="radial-bar">
+                            <svg x="0px" y="0px" viewBox="0 0 200 200">
+                                <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                                <circle class="path path-3" cx="100" cy="100" r="80"></circle>
+                            </svg>
+                            <div class="percentage">70%</div>
+                            <div class="text">Problem Solving</div>
+                        </div>
+        
+                        <div class="radial-bar">
+                            <svg x="0px" y="0px" viewBox="0 0 200 200">
+                                <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                                <circle class="path path-4" cx="100" cy="100" r="80"></circle>
+                            </svg>
+                            <div class="percentage">80%</div>
+                            <div class="text">Teamwork</div>
+                        </div>
+    
+                        <div class="radial-bar">
+                            <svg x="0px" y="0px" viewBox="0 0 200 200">
+                                <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                                <circle class="path path-5" cx="100" cy="100" r="80"></circle>
+                            </svg>
+                            <div class="percentage">71%</div>
+                            <div class="text">Emotional Intelligence</div>
+                        </div>
+
+                        <div class="radial-bar">
+                            <svg x="0px" y="0px" viewBox="0 0 200 200">
+                                <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                                <circle class="path path-6" cx="100" cy="100" r="80"></circle>
+                            </svg>
+                            <div class="percentage">67%</div>
+                            <div class="text">Time Management</div>
+                        </div>
+                    </div>
+
+                    <-- <div class="radial-bars">
+                    
+                        <div class="radial-bar">
+                            <svg x="0px" y="0px" viewBox="0 0 200 200">
+                                <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                                <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                            </svg>
+                            <div class="percentage">90%</div>
+                            <div class="text">Creativity</div>
+                        </div>
+
+                        <div class="radial-bar">
+                            <svg x="0px" y="0px" viewBox="0 0 200 200">
+                                <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                                <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                            </svg>
+                            <div class="percentage">90%</div>
+                            <div class="text">Creativity</div>
+                        </div>
+        
+                        
+                    </div> -
+                </div> -->
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- SERVICES Section Design -->
+    <section class="services" id="services">
+        <h2 class="heading">Our <span>Services</span></h2>
+        <div class="services-container">
+            <!-- <div class="services-box">
+                <i class="bx bx-code-alt"></i>
+                <h3>Web Development</h3>
+                <p>
+                    Hello! I'm So Visalsing, a passionate front-end developer with expertise in designing and developing
+                    websites. I'm driven by my love for creating visually stunning and user-friendly interfaces that
+                    leave a lasting impression.
+                    <br>
+                    With a strong foundation in HTML, CSS, and JavaScript, I bring ideas to life by seamlessly blending
+                    aesthetics and functionality. I have hands-on experience with modern front-end frameworks like
+                    Bootstrap and Wordpress, enabling me to build interactive and static webs.
+
+                </p>
+                <a href="#" class="btn">Read More</a>
+            </div> -->
+
+            <div class="services-box">
+                <i class="bx bx-code-alt"></i>
+                <h3>Front-end Development</h3>
+                <p>
+                    Hello! I'm So Visalsing, a passionate front-end developer with expertise in designing and developing
+                    websites. I'm driven by my love for creating visually stunning and user-friendly interfaces that
+                    leave a lasting impression.
+                    <br>
+                    With a strong foundation in HTML, CSS, and JavaScript, I bring ideas to life by seamlessly blending
+                    aesthetics and functionality. I have hands-on experience with modern front-end frameworks like
+                    Bootstrap and Wordpress, enabling me to build interactive and static webs.
+
+                </p>
+                <a href="subdirectory/readmore.html" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- PORTFOLIO Section Design -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="images/portfolio1.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>MyPortfolio Website</h4>
+                    <p>
+                        Hello, I'm So Visalsing, and this is my project which is a porfolio website of me. It is similar to resume. We can see and download online.
+                    </p>
+                    <a href="index.html" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/portfolio1.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>PortfolioMe Website</h4>
+                    <p>
+                        Hello! I'm So Visalsing, a passionate front-end developer with expertise in designing and
+                        developing websites.
+                    </p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/portfolio1.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>E-Plants</h4>
+                    <p>
+                        Hello! I'm So Visalsing, a passionate front-end developer with expertise in designing and
+                        developing websites.
+                    </p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/portfolio1.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Calculator Web</h4>
+                    <p>
+                        Hello! I'm So Visalsing, a passionate front-end developer with expertise in designing and
+                        developing websites.
+                    </p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/portfolio1.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Fruit & Vegetables E-Commerce</h4>
+                    <p>
+                        Hello! I'm So Visalsing, a passionate front-end developer with expertise in designing and
+                        developing websites.
+                    </p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        
+
+        <div class="contact-container">
+            <div class="contact-box">
+                <p>I am available for freelance work.<br>Connect with me via<br>
+                    phone: +855 96 252 1705 or email: sovisalsing288@gmail.com<br>
+                    In addition, here is my social media!
+                </p>
+                <div class="social-media">
+                    <a href="https://www.facebook.com/profile.php?id=100024759097669" target="_blank" alt="Facebook"><i
+                            class='bx bxl-facebook'></i></a>
+                    <a href="https://instagram.com/visalsing_88?igshid=NzZlODBkYWE4Ng%3D%3D&utm_source=qr" target="_blank"
+                        alt="Instagram"><i class='bx bxl-instagram'></i></a>
+                    <a href="https://twitter.com/visalsing_88" target="Twitter" alt="Twitter"><i
+                            class='bx bxl-twitter'></i></a>
+                    <a href="#"><i class='bx bxl-telegram'></i></a>
+                </div>
+
+            </div>
+
+        <!-- <div class="contact-container">
+            <div class="contact-box">
+                <div class="contact-form">
+                    <p>Connect with me with this message! Here you can contact me by messaging me below!</p>
+        
+                    <form action="">
+                        <input type="" placeholder="Your Name" required>
+                        <input type="email" name="email" id="" placeholder="E-mail" required>
+                        <input type="" placeholder="Write a Subject" required>
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+                        <input type="submit" name="" value="Submit" class="btn">
+                    </form>
+                </div>
+            </div>
+        </div> -->
+
+
+        
+    </section>
+
+    <!-- Scroll Reveal -->
+    <!-- https://scrollrevealjs.org/ -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- JavaScript -->
+    <script src="javascript/behaviour.js"></script>
+</body>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="footer-text">
+        <p>Copyright &copy; 2023 by So Visalsing | All Rights Reserved.</p>
+    </div>
+
+    <div class="footer-iconTop">
+        <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+    </div>
+</footer>
+
+</html>
